@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tutorat Brébeuf</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="bg_tuteur">
+		<h3>Inscris-toi au programme!</h3>
+    <script src="script.js"></script>
+		<form id="student_form">
+			Nom: <input type="text" name="nom" placeholder="Entre ton nom"></input>
+			<p></p>
+			Prénom: <input type="text" name="nom" placeholder="Entre ton prénom"></input>
+			<p>Sexe: Femme <input type="radio" name="female"> </input>
+			Homme <input type="radio" name="male"> </input></p>
+				<p>
+             <label>Ton profil:</label>
+             <select id = "myList">
+							 <option value = "0"></option>
+               <option value = "1">BI</option>
+               <option value = "2">Latin</option>
+               <option value = "3">Sport</option>
+             </select>
+          </p>
+					<p>
+             <label>Ton niveau scolaire:</label>
+             <select id = "myList">
+							 <option value = "0"></option>
+               <option value = "1">Secondaire 1</option>
+               <option value = "2">Secondaire 2</option>
+               <option value = "3">Secondaire 3</option>
+               <option value = "4">Secondaire 4</option>
+             </select>
+          </p>
+          
+			Ta classe: <input type="text" name="groupe" placeholder="Entre ton groupe"></input>
+			<p><p/>
+			Choisi tes matières à améliorer:
+			<br>
+			<input type="checkbox" name="matière3" value="3" > Anglais<br>
+			<input type="checkbox" name="matière5" value="5" > ECR<br>
+			<input type="checkbox" name="matière7" value="7" > Espagnol<br>
+			<input type="checkbox" name="matière2" value="2" > Français<br>
+			<input type="checkbox" name="matière7" value="7" > Géogrphie<br>
+			<input type="checkbox" name="matière7" value="7" > Histoire<br>
+			<input type="checkbox" name="matière6" value="6" >Latin<br>
+      <input type="checkbox" name="matière1" value="1" > Mathématiques<br>
+			<input type="checkbox" name="matière4" value="4" > Science<br>
+			<br></br>
+			Professeur: <br/><textarea name="message" rows="2" cols="30" placeholder="Quels professeurs t'ont enseigné dans ces matières?"></textarea>
+			<p/>
+			Informations supplémentaires: <br/><textarea name="message" rows="4" cols="30"></textarea>
+			<p></p>
+			<input type="Submit" value="Envoyer" ></input>
+		</form>
+  </body>
+</html>
